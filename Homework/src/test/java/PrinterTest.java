@@ -45,7 +45,7 @@ public class PrinterTest {
     @Test
     public void printerHasToner(){
         int result = testPrinter.getToner();
-        assertEquals(75, result);
+        assertEquals(125, result);
     }
 
     @Test
